@@ -27,22 +27,22 @@ tic;
 toc
 
 figure('Name','Image after 1 Iteration of GD with Exact Quad');
-colormap ( gray )
+colormap ( gray );
 imagesc ( reshape (x_1 , 256 , 256 ) );
 
 
 figure('Name','Image after 10 Iterations of GD with Exact Quad');
-colormap ( gray )
+colormap ( gray );
 imagesc ( reshape (x_10 , 256 , 256 ) );
 
 
 figure('Name','Image after 100 Iterations of GD with Exact Quad');
-colormap ( gray )
+colormap ( gray );
 imagesc ( reshape (x_100 , 256 , 256 ) );
 
 
 figure('Name','Image after 1000 Iterations of GD with Exact Quad');
-colormap ( gray )
+colormap ( gray );
 imagesc ( reshape (x_1000 , 256 , 256 ) );
 
 
@@ -53,21 +53,21 @@ tic;
 toc
 
 figure('Name','Image after 1 Iteration of GD with Const Step');
-colormap ( gray )
+colormap ( gray );
 imagesc ( reshape (x_1 , 256 , 256 ) );
 
 
 figure('Name','Image after 10 Iterations of GD with Const Step');
-colormap ( gray )
+colormap ( gray );
 imagesc ( reshape (x_10 , 256 , 256 ) );
 
 
 figure('Name','Image after 100 Iterations of GD with Const Step');
-colormap ( gray )
+colormap ( gray );
 imagesc ( reshape (x_100 , 256 , 256 ) );
 
 
 figure('Name','Image after 1000 Iterations of GD with Const Step');
-colormap ( gray )
+colormap ( gray );
 imagesc ( reshape (x_1000 , 256 , 256 ) );
 

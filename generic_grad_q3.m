@@ -21,7 +21,7 @@ iteration = 0;
 % Execute Generic Gradient Descent Algorithm
 % while (grad_norm > eps && iteration < MAX_ITERATIONS)
 while (iteration < MAX_ITERATIONS)
-tic
+
     t_k = lsearch(f,x,grad);
     x = x - (t_k * grad);
     grad = gf(x);
@@ -46,7 +46,7 @@ tic
     if(mod(iteration,100) == 0)
         disp(['Iteration ', num2str(iteration), ' complete'])
     end
- 
+
 end
 disp('Generic Grad loop complete. Time taken:')
 end
