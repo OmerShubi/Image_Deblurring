@@ -6,9 +6,9 @@
 [A, b , x ] = blur ( 256 , 5 , 1 ) ;
 
 % Display the original and blurred images
-% colormap ( gray )
-% imagesc ( reshape (x , 256 , 256 ) )
-% figure()
+colormap ( gray )
+imagesc ( reshape (x , 256 , 256 ) )
+figure()
 % colormap ( gray )
 % imagesc ( reshape (b , 256 , 256 ) )
 
