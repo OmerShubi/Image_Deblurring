@@ -48,6 +48,5 @@ while (iteration < MAX_ITERATIONS)
     end
 
 end
-disp('Generic Grad loop complete. Time taken:')
 end
 
